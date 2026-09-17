@@ -2,7 +2,7 @@
 
 Website institucional e portfólio oficial do desenvolvedor **Paulo Cézar**, desenvolvido com foco em representar seus aplicativos mobile perante o **Google Play Console** e a **Apple App Store**.
 
-O site destaca o aplicativo **Concentrador de Mídias** (disponível para iOS na App Store e em fase de testes no Google Play para Android), os projetos em andamento voltados para Engenharia Civil, Educação Física/Saúde e Utilitários, além de disponibilizar a chave PIX para apoio aos projetos sociais sem fins lucrativos.
+O site destaca o aplicativo **Concentrador de Mídias** (que copia fotos e vídeos diretamente do pendrive para a memória do celular via conexão USB OTG, disponível para iOS na App Store e em fase de testes no Google Play para Android), os projetos em andamento voltados para Engenharia Civil, Educação Física/Saúde e Utilitários, além de disponibilizar a chave PIX para apoio aos projetos sociais sem fins lucrativos.
 
 ---
 

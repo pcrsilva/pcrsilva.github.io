@@ -289,7 +289,7 @@
           </span>
           <h2 class="section-title">Concentrador de Mídias</h2>
           <p class="section-subtitle">
-            A solução definitiva para transferência e cópia local de mídias entre seu dispositivo móvel e unidades de armazenamento externas via conexão física USB.
+            A solução definitiva para importar, transferir e concentrar fotos e vídeos diretamente de pendrives e memórias externas para o seu celular via conexão física USB.
           </p>
         </div>
 
@@ -301,15 +301,19 @@
                 <span class="app-type-badge" style="border-color: var(--emerald); color: var(--emerald); background: rgba(16,185,129,0.1);">FLUTTER 100% NATIVO</span>
               </div>
 
-              <h3 class="app-title">Copie fotos e vídeos em segundos, direto para o seu pendrive.</h3>
+              <h3 class="app-title">Copie fotos e vídeos em segundos, direto do pendrive para o seu celular.</h3>
               <p class="app-tagline">
-                Sem depender de internet móvel, sem planos caros de nuvem e sem risco de violação da sua privacidade. O Concentrador de Mídias estabelece um canal direto de leitura e gravação através da porta USB do seu smartphone.
+                Sem depender de computador intermediário, sem internet móvel e sem planos caros de nuvem. O Concentrador de Mídias lê os arquivos direto do seu pendrive através da porta USB e salva tudo com segurança na galeria e armazenamento do seu aparelho.
               </p>
 
               <div class="app-feature-list">
                 <div class="app-feature-item">
                   <div class="feature-check">&#10003;</div>
-                  <div><strong>Independência Total da Nuvem:</strong> Funciona 100% offline, ideal para viagens, campo, obras e locais sem sinal.</div>
+                  <div><strong>Do Pendrive para o Celular:</strong> Importe fotos, vídeos e gravações de unidades USB externas diretamente para a memória do seu smartphone.</div>
+                </div>
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>Independência Total de PC e Nuvem:</strong> Não precisa ligar um computador nem gastar pacote de dados para acessar seus arquivos.</div>
                 </div>
                 <div class="app-feature-item">
                   <div class="feature-check">&#10003;</div>
@@ -317,7 +321,7 @@
                 </div>
                 <div class="app-feature-item">
                   <div class="feature-check">&#10003;</div>
-                  <div><strong>Privacidade Absoluta:</strong> Seus dados pessoais não saem do seu controle e nunca são enviados a servidores externos.</div>
+                  <div><strong>Privacidade Absoluta:</strong> Seus dados pessoais não saem do seu controle físico e nunca passam por servidores externos.</div>
                 </div>
                 <div class="app-feature-item">
                   <div class="feature-check">&#10003;</div>
@@ -362,20 +366,20 @@
               <div class="visualizer-header">
                 <span class="visualizer-title">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-                  ESQUEMA DE CONEXÃO OTG
+                  FLUXO DE IMPORTAÇÃO OTG
                 </span>
-                <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim);">HARDWARE // PIPELINE</span>
+                <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--text-dim);">PENDRIVE &rarr; CELULAR</span>
               </div>
 
               <div class="diagram-chain">
-                <!-- Passo 1: Dispositivo -->
-                <div class="diagram-node">
-                  <div class="node-icon-wrap">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                <!-- Passo 1: Mídia Externa (Origem) -->
+                <div class="diagram-node" style="border-color: rgba(16, 185, 129, 0.4);">
+                  <div class="node-icon-wrap" style="background: rgba(16, 185, 129, 0.1); color: var(--emerald);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><circle cx="12" cy="12" r="2"/></svg>
                   </div>
                   <div class="node-text">
-                    <h4>1. Dispositivo Móvel</h4>
-                    <p>iPhone / iPad ou Smartphone / Tablet Android</p>
+                    <h4>1. Pendrive / Armazenamento (Origem)</h4>
+                    <p>Pendrive, HD externo, SSD portátil ou Leitor de Cartão com mídias</p>
                   </div>
                 </div>
 
@@ -390,7 +394,7 @@
                   </div>
                   <div class="node-text">
                     <h4>2. Adaptador Type-C Macho &rarr; USB Fêmea</h4>
-                    <p>Adaptador OTG padrão de mercado de baixo custo</p>
+                    <p>Adaptador OTG conectado à porta de carregamento do celular</p>
                   </div>
                 </div>
 
@@ -398,20 +402,20 @@
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 10 12 15 17 10"></polyline></svg>
                 </div>
 
-                <!-- Passo 3: Mídia Externa -->
-                <div class="diagram-node">
-                  <div class="node-icon-wrap" style="background: rgba(16, 185, 129, 0.1); color: var(--emerald);">
-                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><circle cx="12" cy="12" r="2"/></svg>
+                <!-- Passo 3: Celular (Destino) -->
+                <div class="diagram-node" style="border-color: rgba(0, 240, 255, 0.4);">
+                  <div class="node-icon-wrap" style="background: rgba(0, 240, 255, 0.1); color: var(--cyan);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
                   </div>
                   <div class="node-text">
-                    <h4>3. Unidade de Armazenamento</h4>
-                    <p>Pendrive, HD externo, SSD portátil ou Leitor de Cartão SD</p>
+                    <h4>3. Celular / Concentrador de Mídias (Destino)</h4>
+                    <p>O app reconhece a unidade e salva fotos e vídeos na galeria do celular</p>
                   </div>
                 </div>
               </div>
 
               <div class="hardware-callout">
-                <strong>Importante:</strong> Para utilizar o Concentrador de Mídias em seu smartphone, você precisará apenas de um pequeno <em>adaptador Type-C macho para USB fêmea</em> conectado à porta de carregamento do aparelho.
+                <strong>Como funciona:</strong> Conecte seu pendrive ao <em>adaptador Type-C macho para USB fêmea</em> e plugue no celular. O aplicativo reconhece a unidade USB externa e copia todas as fotos e vídeos diretamente para a memória do seu aparelho, sem complicação.
               </div>
             </div>
           </div>
