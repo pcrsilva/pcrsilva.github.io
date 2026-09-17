@@ -4,26 +4,23 @@ Este guia foi elaborado especialmente para você colocar o seu site no ar gratui
 
 ---
 
-## 🎯 Opção 1: Seu site no endereço principal (Recomendado)
-Se você criar um repositório chamado exatamente:
-`seu-usuario.github.io` (substituindo *seu-usuario* pelo seu nome de usuário no GitHub), a URL do seu site será:
-👉 **`https://seu-usuario.github.io`**
+## 🎯 Nome Recomendado para o Repositório: `pcrsilva.github.io`
+Criando o repositório com o nome exato da sua conta:
+👉 **`pcrsilva.github.io`**
 
-## 🎯 Opção 2: Seu site como repositório de projeto
-Se você criar um repositório com o nome `site` ou `developer-site`, a URL do seu site será:
-👉 **`https://seu-usuario.github.io/site/`**
+A URL final do seu site será direta, sem subpastas:
+👉 **`https://pcrsilva.github.io`**
 
 ---
 
 ## 🚀 Passo a Passo Prático
 
 ### Passo 1: Criar o Repositório no GitHub
-1. Acesse sua conta no [GitHub.com](https://github.com).
-2. No canto superior direito, clique no botão **`+`** e selecione **`New repository`**.
-3. Em **Repository name**, digite o nome desejado (por exemplo: `seu-usuario.github.io` ou `site`).
-4. Deixe o repositório como **Public** (necessário para GitHub Pages gratuito).
-5. **Não marque** as opções de adicionar README ou .gitignore (já criamos tudo isso localmente para você).
-6. Clique no botão verde **`Create repository`**.
+1. Acesse sua conta no [GitHub.com/new](https://github.com/new).
+2. Em **Repository name**, digite: **`pcrsilva.github.io`** (ou `apps` se preferir).
+3. Deixe o repositório marcado como **Public**.
+4. **Não marque** as opções de adicionar README ou .gitignore (já criamos tudo isso localmente para você).
+5. Clique no botão verde **`Create repository`**.
 
 ---
 
@@ -31,38 +28,38 @@ Se você criar um repositório com o nome `site` ou `developer-site`, a URL do s
 No terminal do seu computador, dentro da pasta do projeto (`/Users/paulo/projetos/projetos_antigravity/paulo-develope-site`), execute os seguintes comandos:
 
 ```bash
-# 1. Vincule seu repositório remoto (substitua SEU_USUARIO e NOME_DO_REPOSITORIO pelos seus dados reais)
-git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPOSITORIO.git
+# 1. Vincule seu repositório remoto
+git remote add origin https://github.com/pcrsilva/pcrsilva.github.io.git
 
-# 2. Envie o código para o GitHub
+# 2. Envie o código para o branch principal
 git push -u origin main
 ```
 
-*(Se o GitHub solicitar login, autentique-se via navegador ou utilizando um Personal Access Token).*
+*(Se o GitHub solicitar credenciais, autentique-se via navegador ou utilizando seu Personal Access Token).*
 
 ---
 
 ### Passo 3: Ativar o GitHub Pages no Repositório
-1. Na página do seu repositório no GitHub, clique na aba **`Settings`** (Configurações) no topo.
+1. Na página do repositório no GitHub, clique na aba **`Settings`** (Configurações) no topo.
 2. No menu lateral esquerdo, clique em **`Pages`** (abaixo de "Code and automation").
 3. Na seção **Build and deployment**:
    - **Source:** selecione `Deploy from a branch`.
    - **Branch:** selecione `main` e deixe a pasta como `/(root)`.
 4. Clique no botão **`Save`**.
 5. Aguarde cerca de 1 a 2 minutos. Atualize a página e você verá uma mensagem verde com a URL do seu site no ar:
-   > *"Your site is live at https://seu-usuario.github.io/"*
+   > *"Your site is live at https://pcrsilva.github.io/"*
 
 ---
 
-## 📱 URLs para cadastrar no Google Play Console e Apple Store
+## 📱 URLs Oficiais para Cadastrar no Google Play Console e Apple Store
 
 Assim que o site estiver ativo, cadastre estes links nas lojas:
 
 1. **Website do Desenvolvedor (Ficha da Loja / Developer Profile):**
-   `https://seu-usuario.github.io/`
+   `https://pcrsilva.github.io/`
 
-2. **URL da Política de Privacidade (Obrigatório para aprovação de apps com permissões de armazenamento/USB):**
-   `https://seu-usuario.github.io/privacy-policy.html`
+2. **URL da Política de Privacidade (Obrigatório para aprovação de apps no Google Play e App Store):**
+   `https://pcrsilva.github.io/privacy-policy.html`
 
 3. **E-mail de Suporte ao Usuário:**
    `engenheiro.paulo.cezar@gmail.com`
