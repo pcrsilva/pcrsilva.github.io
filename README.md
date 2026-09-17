@@ -4,7 +4,7 @@ Website institucional e portfólio oficial do desenvolvedor **Paulo Cézar**, de
 
 O site destaca as aplicações publicadas oficialmente na Apple App Store e Google Play:
 - **Concentrador de Mídias USB:** Cópia e importação rápida de fotos e vídeos de pendrives e memórias externas direto para o celular via conexão física USB OTG ([Disponível na Apple App Store](https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB) e em fase de testes no Google Play para Android).
-- **pH Sanguíneo (Equinos Adultos):** Cálculo e estimativa rápida do pH sanguíneo e cBase a partir da urinálise em campo para equinos adultos, gerando economia expressiva com gasômetros caros ([Disponível na Apple App Store](https://apps.apple.com/br/app/ph-sangu%C3%ADneo/id6738585527?l=en-GB)).
+- **pH Sanguíneo (Equinos Adultos):** Cálculo e estimativa rápida do pH sanguíneo e cBase a partir da urinálise em campo para equinos adultos, gerando economia expressiva com gasômetros caros ([Disponível na Apple App Store](https://apps.apple.com/br/app/ph-sangu%C3%ADneo/id6738585527?l=en-GB) e em fase de testes no Google Play para Android).
 
 Além disso, apresenta os projetos em andamento:
 - **FinInvest:** Gestão financeira pessoal, despesas, receitas e controle de investimentos com importação da carteira da B3 via extratos em Excel (.xlsx) e CSV.
