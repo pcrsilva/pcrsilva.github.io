@@ -2,7 +2,11 @@
 
 Website institucional e portfólio oficial do desenvolvedor **Paulo Cézar**, desenvolvido com foco em representar seus aplicativos mobile perante o **Google Play Console** e a **Apple App Store**.
 
-O site destaca o aplicativo **Concentrador de Mídias** (que copia fotos e vídeos diretamente do pendrive para a memória do celular via conexão USB OTG, disponível para iOS na App Store e em fase de testes no Google Play para Android), os projetos em andamento voltados para Engenharia Civil, Educação Física/Saúde e Utilitários, além de disponibilizar a chave PIX para apoio aos projetos sociais sem fins lucrativos.
+O site destaca as aplicações publicadas oficialmente na Apple App Store e Google Play:
+- **Concentrador de Mídias USB:** Cópia e importação rápida de fotos e vídeos de pendrives e memórias externas direto para o celular via conexão física USB OTG (disponível na Apple App Store e em fase de testes no Google Play para Android).
+- **pH Sanguíneo (Equinos Adultos):** Cálculo e estimativa rápida do pH sanguíneo e cBase a partir da urinálise em campo para equinos adultos, gerando economia expressiva com gasômetros caros (publicado na Apple App Store).
+
+Além disso, apresenta os projetos em andamento voltados para Engenharia Civil, Educação Física/Saúde e Utilitários, e disponibiliza a chave PIX para apoio aos projetos sociais sem fins lucrativos.
 
 ---
 

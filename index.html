@@ -166,8 +166,8 @@
 
             <div class="quick-specs">
               <div class="spec-line">
-                <span>// STATUS APPLE STORE:</span>
-                <span class="spec-val" style="color: var(--emerald);">PUBLICADO &bull; ATIVO</span>
+                <span>// APPLE STORE (2 APPS):</span>
+                <span class="spec-val" style="color: var(--emerald);">CONCENTRADOR &bull; PH SANGUÍNEO</span>
               </div>
               <div class="spec-line">
                 <span>// STATUS GOOGLE PLAY:</span>
@@ -285,23 +285,25 @@
         <div class="section-header">
           <span class="section-tag">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-            Produto Oficial
+            Aplicações Oficiais Publicadas
           </span>
-          <h2 class="section-title">Concentrador de Mídias</h2>
+          <h2 class="section-title">Soluções Mobile em Produção</h2>
           <p class="section-subtitle">
-            A solução definitiva para importar, transferir e concentrar fotos e vídeos diretamente de pendrives e memórias externas para o seu celular via conexão física USB.
+            Aplicativos desenvolvidos por Paulo Cézar disponíveis na Apple App Store e em processo de homologação/testes no Google Play.
           </p>
         </div>
 
-        <div class="app-hero-card">
+        <!-- APLICATIVO 1: CONCENTRADOR DE MÍDIAS -->
+        <div class="app-hero-card" id="app-concentrador">
           <div class="app-hero-grid">
             <div class="app-hero-left">
               <div class="app-badge-row">
                 <span class="app-type-badge">UTILITÁRIO MOBILE</span>
-                <span class="app-type-badge" style="border-color: var(--emerald); color: var(--emerald); background: rgba(16,185,129,0.1);">FLUTTER 100% NATIVO</span>
+                <span class="app-type-badge" style="border-color: var(--emerald); color: var(--emerald); background: rgba(16,185,129,0.1);">FLUTTER NATIVO</span>
+                <span class="app-type-badge" style="border-color: #38bdf8; color: #38bdf8; background: rgba(56,189,248,0.1);">APPLE APP STORE</span>
               </div>
 
-              <h3 class="app-title">Copie fotos e vídeos em segundos, direto do pendrive para o seu celular.</h3>
+              <h3 class="app-title">Concentrador de Mídias USB</h3>
               <p class="app-tagline">
                 Sem depender de computador intermediário, sem internet móvel e sem planos caros de nuvem. O Concentrador de Mídias lê os arquivos direto do seu pendrive através da porta USB e salva tudo com segurança na galeria e armazenamento do seu aparelho.
               </p>
@@ -331,8 +333,8 @@
 
               <!-- Lojas e Disponibilidade -->
               <div class="store-buttons-group">
-                <!-- Apple App Store (Já publicado) -->
-                <div class="store-badge-card published" title="Aplicativo já disponível na App Store da Apple">
+                <!-- Apple App Store Link Real -->
+                <a href="https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB" target="_blank" rel="noopener noreferrer" class="store-badge-card published" title="Baixar Concentrador de Mídias na App Store da Apple">
                   <div class="store-icon" style="color: #ffffff;">
                     <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.38c.62-.75 1.04-1.8 0.93-2.85-.9.04-2 .6-2.64 1.35-.57.65-1.07 1.72-.93 2.74 1.01.08 2.02-.49 2.64-1.24z"/></svg>
                   </div>
@@ -343,7 +345,7 @@
                       <span class="status-chip chip-active">PUBLICADO</span>
                     </span>
                   </div>
-                </div>
+                </a>
 
                 <!-- Google Play Store (Em fase de teste) -->
                 <div class="store-badge-card testing" title="Aplicativo em fase de testes fechados/abertos na Google Play">
@@ -357,6 +359,27 @@
                       <span class="status-chip chip-test">EM TESTES</span>
                     </span>
                   </div>
+                </div>
+              </div>
+
+              <!-- Painel de Download via QR Code -->
+              <div class="qr-download-panel">
+                <div class="qr-code-thumb">
+                  <img 
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fapps.apple.com%2Fbr%2Fapp%2Fconcentrador-de-m%25C3%25ADdias-usb%2Fid6799461519%3Fl%3Den-GB&color=07090e&bgcolor=ffffff" 
+                    alt="QR Code para baixar Concentrador de Mídias na App Store" 
+                    loading="lazy"
+                  />
+                </div>
+                <div class="qr-download-text">
+                  <span class="qr-download-title">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v10m0 0l-3-3m3 3l3-3"/><path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+                    Escanear no iPhone / iPad
+                  </span>
+                  <p class="qr-download-desc">Aponte a câmera do seu dispositivo iOS para abrir e instalar diretamente pela Apple App Store.</p>
+                  <a href="https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB" target="_blank" rel="noopener noreferrer" class="btn-appstore-direct">
+                    Abrir link na App Store &rarr;
+                  </a>
                 </div>
               </div>
             </div>
@@ -416,6 +439,143 @@
 
               <div class="hardware-callout">
                 <strong>Como funciona:</strong> Conecte seu pendrive ao <em>adaptador Type-C macho para USB fêmea</em> e plugue no celular. O aplicativo reconhece a unidade USB externa e copia todas as fotos e vídeos diretamente para a memória do seu aparelho, sem complicação.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- APLICATIVO 2: PH SANGUÍNEO (EQUINOS ADULTOS) -->
+        <div class="app-hero-card card-emerald" id="app-phsanguineo" style="margin-top: 56px;">
+          <div class="app-hero-grid">
+            <div class="app-hero-left">
+              <div class="app-badge-row">
+                <span class="app-type-badge" style="border-color: var(--emerald); color: var(--emerald); background: rgba(16,185,129,0.15);">MEDICINA VETERINÁRIA &bull; AGROTECNOLOGIA</span>
+                <span class="app-type-badge" style="border-color: #38bdf8; color: #38bdf8; background: rgba(56,189,248,0.1);">EQUINOS ADULTOS</span>
+                <span class="app-type-badge" style="border-color: var(--emerald); color: var(--emerald);">APPLE APP STORE</span>
+              </div>
+
+              <h3 class="app-title">pH Sanguíneo: Estimativa e cBase em Campo</h3>
+              <p class="app-tagline">
+                Calcula com rapidez e precisão o <strong>pH do sangue</strong> e a <strong>concentração de bases (cBase)</strong> de equinos adultos a partir da coleta em campo do pH da urina. Utiliza uma fórmula matemática validada clinicamente, gerando economia expressiva com equipamentos laboratoriais e gasômetros caros.
+              </p>
+
+              <div class="app-feature-list">
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>Cálculo a Partir do pH da Urina:</strong> Basta coletar e medir o pH urinário em campo (via fita ou medidor portátil) e inserir no aplicativo.</div>
+                </div>
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>Economia Expressiva:</strong> Evita custos elevados com equipamentos de hemogasometria hospitalar para triagens imediatas de acidose metabólica.</div>
+                </div>
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>Fórmula Matemática Validada:</strong> Algoritmo baseado em correlações científicas fidedignas do equilíbrio ácido-base em equinos.</div>
+                </div>
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>100% Offline para Uso no Campo:</strong> Funciona em haras, pistas de corrida, fazendas e competições rurais sem necessidade de internet.</div>
+                </div>
+                <div class="app-feature-item">
+                  <div class="feature-check">&#10003;</div>
+                  <div><strong>Histórico &amp; Suporte Oficial:</strong> Registro de medições prévias e canal de suporte centralizado diretamente pelo desenvolvedor.</div>
+                </div>
+              </div>
+
+              <!-- Lojas e Disponibilidade -->
+              <div class="store-buttons-group">
+                <!-- Apple App Store Link Real -->
+                <a href="https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB" target="_blank" rel="noopener noreferrer" class="store-badge-card published" style="border-color: rgba(16,185,129,0.5); background: rgba(16,185,129,0.08);" title="Baixar pH Sanguíneo na App Store da Apple">
+                  <div class="store-icon" style="color: #ffffff;">
+                    <svg viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.38c.62-.75 1.04-1.8 0.93-2.85-.9.04-2 .6-2.64 1.35-.57.65-1.07 1.72-.93 2.74 1.01.08 2.02-.49 2.64-1.24z"/></svg>
+                  </div>
+                  <div class="store-info">
+                    <span class="store-sub">Disponível para iOS</span>
+                    <span class="store-name">
+                      Apple App Store
+                      <span class="status-chip chip-active">PUBLICADO</span>
+                    </span>
+                  </div>
+                </a>
+              </div>
+
+              <!-- Painel de Download via QR Code -->
+              <div class="qr-download-panel emerald-theme">
+                <div class="qr-code-thumb">
+                  <img 
+                    src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https%3A%2F%2Fapps.apple.com%2Fbr%2Fapp%2Fconcentrador-de-m%25C3%25ADdias-usb%2Fid6799461519%3Fl%3Den-GB&color=022c22&bgcolor=ffffff" 
+                    alt="QR Code para baixar pH Sanguíneo na App Store" 
+                    loading="lazy"
+                  />
+                </div>
+                <div class="qr-download-text">
+                  <span class="qr-download-title" style="color: var(--emerald);">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v10m0 0l-3-3m3 3l3-3"/><path d="M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+                    Escanear no iPhone / iPad
+                  </span>
+                  <p class="qr-download-desc">Aponte a câmera do celular para instalar o pH Sanguíneo direto da App Store da Apple.</p>
+                  <a href="https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB" target="_blank" rel="noopener noreferrer" class="btn-appstore-direct emerald-link">
+                    Abrir link na App Store &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Visualizador do Fluxo de Cálculo Clínico -->
+            <div class="clinical-visualizer">
+              <div class="visualizer-header">
+                <span class="visualizer-title" style="color: var(--emerald);">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                  METODOLOGIA MATEMÁTICA CLÍNICA
+                </span>
+                <span style="font-family: var(--font-mono); font-size: 0.7rem; color: var(--emerald);">EQUINOS // ACIDOSE</span>
+              </div>
+
+              <div class="diagram-chain">
+                <!-- Etapa 1: Coleta em Campo -->
+                <div class="diagram-node" style="border-color: rgba(245, 158, 11, 0.4);">
+                  <div class="node-icon-wrap" style="background: rgba(245, 158, 11, 0.12); color: var(--amber);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/></svg>
+                  </div>
+                  <div class="node-text">
+                    <h4>1. Coleta e pH da Urina em Campo</h4>
+                    <p>Medição rápida do pH urinário com fita ou leitor portátil simples</p>
+                  </div>
+                </div>
+
+                <div class="diagram-connector" style="color: var(--emerald);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 10 12 15 17 10"></polyline></svg>
+                </div>
+
+                <!-- Etapa 2: Algoritmo -->
+                <div class="diagram-node" style="border-color: rgba(0, 240, 255, 0.4);">
+                  <div class="node-icon-wrap" style="background: rgba(0, 240, 255, 0.12); color: var(--cyan);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>
+                  </div>
+                  <div class="node-text">
+                    <h4>2. Processamento Matemático do App</h4>
+                    <p>Aplicação da equação matemática de correlação do equilíbrio ácido-base</p>
+                  </div>
+                </div>
+
+                <div class="diagram-connector" style="color: var(--emerald);">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="7 10 12 15 17 10"></polyline></svg>
+                </div>
+
+                <!-- Etapa 3: Resultados -->
+                <div class="diagram-node" style="border-color: rgba(16, 185, 129, 0.4);">
+                  <div class="node-icon-wrap" style="background: rgba(16, 185, 129, 0.15); color: var(--emerald);">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                  </div>
+                  <div class="node-text">
+                    <h4>3. pH Sanguíneo &amp; cBase Estimados</h4>
+                    <p>Valores instantâneos na tela para tomada rápida de decisão veterinária</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="hardware-callout" style="border-left-color: var(--emerald); background: rgba(16, 185, 129, 0.08);">
+                <strong style="color: var(--emerald);">Canal Oficial de Suporte:</strong> As informações de suporte e diretrizes técnicas do pH Sanguíneo foram migradas da antiga página (Blogspot) para este site oficial, garantindo contato direto com o desenvolvedor.
               </div>
             </div>
           </div>
@@ -628,7 +788,8 @@
           <ul class="footer-links">
             <li><a href="#inicio">Início</a></li>
             <li><a href="#sobre">Trajetória e Formação</a></li>
-            <li><a href="#aplicativos">Concentrador de Mídias</a></li>
+            <li><a href="#app-concentrador">Concentrador de Mídias</a></li>
+            <li><a href="#app-phsanguineo">pH Sanguíneo (Equinos)</a></li>
             <li><a href="#projetos">Projetos em Andamento</a></li>
             <li><a href="#apoiar">Apoiar via PIX</a></li>
           </ul>
