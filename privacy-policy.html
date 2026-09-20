@@ -51,7 +51,7 @@
 
         <div class="policy-body">
           <p>
-            Esta Política de Privacidade descreve de maneira transparente como os aplicativos desenvolvidos de forma independente por <strong>Paulo Cézar</strong> (incluindo os aplicativos <strong>Concentrador de Mídias</strong> e <strong>pH Sanguíneo</strong> para iOS e Android) tratam dados, arquivos e permissões nos dispositivos dos usuários.
+            Esta Política de Privacidade descreve de maneira transparente como os aplicativos desenvolvidos de forma independente por <strong>Paulo Cézar</strong> (incluindo <strong>FinInvest (Finanças e Investimentos)</strong>, <strong>Concentrador de Mídias</strong> e <strong>pH Sanguíneo</strong> para iOS e Android) tratam dados, arquivos e permissões nos dispositivos dos usuários.
           </p>
 
           <h2>1. Compromisso com a Privacidade</h2>
@@ -59,67 +59,83 @@
             O desenvolvedor tem como princípio fundamental o respeito à soberania dos seus dados. <strong>Não coletamos, não vendemos, não rastreamos e não compartilhamos quaisquer informações de identificação pessoal com terceiros</strong>. Nossos aplicativos são projetados segundo o conceito de <em>Privacy by Design</em> (Privacidade desde a Concepção).
           </p>
 
-          <h2>2. O Aplicativo Concentrador de Mídias</h2>
+          <h2>2. O Aplicativo FinInvest (Finanças e Investimentos)</h2>
+          <p>
+            O aplicativo <strong>FinInvest</strong> foi concebido para auxiliar o usuário no controle e organização de seus investimentos (ações, fundos imobiliários, BDRs, ETFs, criptomoedas e renda fixa) e finanças pessoais (orçamentos, receitas, despesas e cartões de crédito):
+          </p>
+          <ul>
+            <li><strong>Armazenamento 100% Local (Local-First):</strong> Todas as movimentações financeiras, valores investidos, saldo de contas e notas de corretagem/extratos são gravados exclusivamente no armazenamento seguro do dispositivo do próprio usuário. Não há transmissão dessas informações para bancos de dados remotos.</li>
+            <li><strong>Biometria e Segurança (Face ID / Touch ID / PIN):</strong> O aplicativo utiliza a API nativa de autenticação biométrica do sistema operacional (iOS e Android) apenas para destravar o aplicativo localmente. Nenhuma informação biométrica é acessada ou exportada pelo app.</li>
+            <li><strong>Cotações de Mercado em Tempo Real:</strong> A consulta de preços e cotações de ativos é realizada diretamente via API pública/provedores de dados de mercado (Google Finance / SerpApi) de forma efêmera e pontual, sem associação a perfis de usuário ou histórico pessoal.</li>
+            <li><strong>Autenticação Opcional:</strong> O aplicativo suporta uso anônimo (Modo Convidado) sem necessidade de cadastro, além de login social opcional (Sign in with Apple / Google) unicamente para identificação do usuário no aparelho, sem rastreamento comportamental.</li>
+          </ul>
+
+          <h2>3. O Aplicativo Concentrador de Mídias</h2>
           <p>
             O aplicativo <strong>Concentrador de Mídias</strong> foi concebido para executar a leitura, cópia e importação local de arquivos (como fotos e vídeos) a partir de periféricos externos de armazenamento (como pendrives, leitores de cartões ou SSDs conectados via adaptador Type-C macho para USB fêmea / OTG) diretamente para o dispositivo móvel do usuário.
           </p>
 
-          <h2>3. O Aplicativo pH Sanguíneo (Equinos Adultos)</h2>
+          <h2>4. O Aplicativo pH Sanguíneo (Equinos Adultos)</h2>
           <p>
             O aplicativo <strong>pH Sanguíneo</strong> foi concebido para calcular e estimar o pH do sangue e a concentração de bases (cBase) de equinos adultos a partir da coleta em campo do pH da urina:
           </p>
           <ul>
             <li><strong>Natureza dos Dados Inseridos:</strong> O usuário insere apenas parâmetros numéricos fisiológicos (valor do pH urinário medido em campo). O aplicativo não solicita nem armazena nomes de animais, proprietários, dados de geolocalização ou quaisquer dados de identificação pessoal.</li>
             <li><strong>Processamento 100% Local:</strong> Todos os cálculos matemáticos clínicos ocorrem instantaneamente no processador do próprio celular. Não há envio de métricas para a nuvem.</li>
-            <li><strong>Finalidade de Apoio à Decisão:</strong> Conforme as boas práticas veterinárias, o aplicativo funciona como ferramenta de auxílio rápido em campo e triagem de acidose/alcalose metabólica, economizando recursos financeiros com equipamentos de alto custo.</li>
-            <li><strong>Migração do Canal de Suporte:</strong> Esta página oficial e o e-mail de contato abaixo substituem formalmente o antigo canal de suporte temporário que estava hospedado no Blogspot (<em>conhecimentoxtecnologia.blogspot.com</em>).</li>
+            <li><strong>Finalidade de Apoio à Decisão:</strong> Conforme as boas práticas veterinárias, o aplicativo funciona como ferramenta de auxílio rápido em campo e triagem de acidose/alcalose metabólica.</li>
           </ul>
 
-          <h2>4. Permissões Requeridas e Sua Finalidade Exclusiva</h2>
+          <h2>5. Permissões Requeridas e Sua Finalidade Exclusiva</h2>
           <p>
-            Para que as funcionalidades do aplicativo funcionem em sistemas Android e iOS, o sistema operacional solicitará as seguintes permissões:
+            Para que as funcionalidades dos aplicativos funcionem em sistemas Android e iOS, o sistema operacional poderá solicitar as seguintes permissões estritamente quando acionadas pelo usuário:
           </p>
           <ul>
             <li>
-              <strong>Acesso a Fotos, Vídeos e Armazenamento (Galeria / Arquivos do Dispositivo):</strong> Esta permissão é necessária exclusivamente para salvar e organizar as fotos e vídeos importados da unidade externa na galeria ou pasta de destino do próprio celular. O processamento ocorre 100% de forma local no seu aparelho.
+              <strong>Biometria / Face ID / Touch ID (FinInvest):</strong> Utilizado exclusivamente para proteger o acesso local ao aplicativo contra terceiros.
             </li>
             <li>
-              <strong>Acesso a Dispositivos USB / OTG (Android e iOS):</strong> Necessário para detectar periféricos de armazenamento físico (pendrives, cartões de memória ou HDs externos) acoplados ao adaptador USB do dispositivo e realizar a leitura dos arquivos de mídia selecionados.
+              <strong>Acesso a Arquivos / Documentos (FinInvest):</strong> Utilizado exclusivamente para que o usuário possa selecionar suas planilhas de negociação da B3 (.xlsx) ou arquivos de backup JSON para importação/exportação local.
+            </li>
+            <li>
+              <strong>Acesso a Fotos, Vídeos e Armazenamento (Concentrador de Mídias):</strong> Necessário exclusivamente para salvar e organizar as fotos e vídeos importados da unidade externa na galeria ou pasta de destino do próprio celular.
+            </li>
+            <li>
+              <strong>Acesso a Dispositivos USB / OTG (Concentrador de Mídias):</strong> Necessário para detectar periféricos de armazenamento físico acoplados ao dispositivo.
             </li>
           </ul>
           <p>
-            <em>Nenhuma foto, vídeo ou arquivo contido no dispositivo é lido para fins de análise, indexação remota, telemetria publicitária ou qualquer finalidade além da cópia solicitada ativamente pelo usuário.</em>
+            <em>Nenhum dado financeiro, foto, vídeo ou arquivo contido no dispositivo é lido para fins de análise, indexação remota, telemetria publicitária ou qualquer finalidade além da solicitada ativamente pelo usuário.</em>
           </p>
 
-          <h2>5. Tratamento e Tráfego de Dados (Zero Nuvem)</h2>
+          <h2>6. Tratamento e Tráfego de Dados (Zero Nuvem e Zero Rastreamento)</h2>
           <p>
-            Tanto o Concentrador de Mídias quanto o pH Sanguíneo operam com arquitetura local offline:
+            Todos os nossos aplicativos operam com arquitetura local:
           </p>
           <ul>
-            <li>Não há servidores remotos de retenção de dados;</li>
-            <li>Não há envio de mídias ou dados clínicos para a internet;</li>
-            <li>Não há bibliotecas de publicidade comportamental de terceiros (SDKs de ad networks invasivos);</li>
+            <li>Não há servidores remotos de retenção de dados pessoais ou financeiros;</li>
+            <li>Não há envio de patrimônio ou movimentações para servidores de telemetria;</li>
+            <li>Não há bibliotecas de publicidade comportamental de terceiros (SDKs de ad networks);</li>
             <li>A integridade dos arquivos e cálculos é restrita ao hardware físico do próprio usuário.</li>
           </ul>
 
-          <h2>6. Privacidade de Crianças (COPPA e LGPD)</h2>
+          <h2>7. Privacidade de Crianças (COPPA e LGPD)</h2>
           <p>
-            Nossos aplicativos não coletam intencionalmente nenhum dado de identificação pessoal de crianças ou adolescentes menores de 13 anos. Por operarem offline e sem criação de contas, estão em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD) e do Regulamento Geral sobre a Proteção de Dados (GDPR).
+            Nossos aplicativos não coletam intencionalmente nenhum dado de identificação pessoal de crianças ou adolescentes menores de 13 anos. Por operarem sob privacidade local, estão em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD) e do Regulamento Geral sobre a Proteção de Dados (GDPR).
           </p>
 
-          <h2>7. Conformidade com Google Play Console e Apple App Store</h2>
+          <h2>8. Conformidade com Apple App Store e Google Play Console</h2>
           <p>
-            Esta política cumpre expressamente os requisitos exigidos pelas diretrizes do <strong>Google Play Developer Distribution Agreement</strong> e do <strong>Apple Developer Program License Agreement</strong> referentes à transparência do uso de permissões de armazenamento, mídias e integridade de aplicativos utilitários e veterinários.
+            Esta política cumpre expressamente os requisitos exigidos pelas diretrizes do <strong>Apple Developer Program License Agreement (App Store Review Guidelines)</strong> e do <strong>Google Play Developer Distribution Agreement</strong> referentes à transparência do uso de permissões, segurança financeira e integridade de aplicativos.
           </p>
 
-          <h2>8. Alterações nesta Política</h2>
+          <h2>9. Alterações nesta Política</h2>
           <p>
             Podemos atualizar nossa Política de Privacidade periodicamente caso novos recursos ou exigências das lojas de aplicativos sejam implementados. Quaisquer atualizações serão publicadas nesta mesma URL oficial.
           </p>
 
-          <h2>9. Informações de Contato e Suporte Oficial</h2>
+          <h2>10. Informações de Contato e Suporte Oficial</h2>
           <p>
-            Se você tiver qualquer dúvida, sugestão técnica ou solicitação referente ao funcionamento do <strong>pH Sanguíneo</strong> ou do <strong>Concentrador de Mídias</strong>, entre em contato diretamente com o desenvolvedor responsável:
+            Se você tiver qualquer dúvida, sugestão técnica ou solicitação referente ao funcionamento de qualquer um dos aplicativos desenvolvidos (<strong>FinInvest</strong>, <strong>pH Sanguíneo</strong> ou <strong>Concentrador de Mídias</strong>), entre em contato diretamente com o desenvolvedor responsável:
           </p>
 
           <div class="policy-contact-box">
