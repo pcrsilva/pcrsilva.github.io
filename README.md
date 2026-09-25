@@ -6,10 +6,11 @@ O site destaca as aplicações desenvolvidas perante a Apple App Store e Google 
 - **Concentrador de Mídias USB:** Cópia e importação rápida de fotos e vídeos de pendrives e memórias externas direto para o celular via conexão física USB OTG ([Disponível na Apple App Store](https://apps.apple.com/br/app/concentrador-de-m%C3%ADdias-usb/id6799461519?l=en-GB) e em fase de testes no Google Play para Android).
 - **pH Sanguíneo (Equinos Adultos):** Cálculo e estimativa rápida do pH sanguíneo e cBase a partir da urinálise em campo para equinos adultos, gerando economia expressiva com gasômetros caros ([Disponível na Apple App Store](https://apps.apple.com/br/app/ph-sangu%C3%ADneo/id6738585527?l=en-GB) e em fase de testes no Google Play para Android).
 - **FinInvest: Finanças Pessoais & Carteira B3:** Gestão financeira pessoal, despesas, receitas e controle de investimentos com importação da carteira da B3 via extratos em Excel (.xlsx) e CSV sem expor dados a servidores (Desenvolvido e submetido às lojas oficiais &bull; Aguardando liberação da revisão na Apple App Store e Google Play).
+- **TensorTimer (TUT & Multi-Exercise Workout Timer):** Cronômetro esportivo profissional para controle de Tempo sob Tensão (TUT), montagem de treinos multi-exercício, cadência de 4 dígitos, cronograma semanal e execução em tela de bloqueio com motor sem drift (Desenvolvido em Flutter &bull; Em preparação para publicação na Apple App Store e Google Play).
 
 Além disso, apresenta os projetos em andamento:
 - **Calculadora Estrutural & Diário de Obras:** Engenharia Civil aplicada ao canteiro.
-- **Biomecânica & Prescrição de Cargas:** Educação Física e saúde integradas à visão computacional.
+- **Biomecânica & Visão Computacional:** Educação Física e cinemática articular em tempo real.
 - **Utilitários Sociais Offline:** Ferramentas de utilidade pública sem coleta de dados.
 
 O site também disponibiliza a chave PIX para apoio aos projetos sociais sem fins lucrativos.

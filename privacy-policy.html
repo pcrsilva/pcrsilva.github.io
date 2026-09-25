@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Política de Privacidade | Paulo Cézar Apps</title>
-  <meta name="description" content="Política de Privacidade para os aplicativos desenvolvidos por Paulo Cézar, incluindo FinInvest, Concentrador de Mídias USB e pH Sanguíneo. Em conformidade com Google Play e Apple App Store.">
+  <meta name="description" content="Política de Privacidade para os aplicativos desenvolvidos por Paulo Cézar, incluindo TensorTimer, FinInvest, Concentrador de Mídias USB e pH Sanguíneo. Em conformidade com Google Play e Apple App Store.">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,7 +51,7 @@
 
         <div class="policy-body">
           <p>
-            Esta Política de Privacidade descreve de maneira transparente como os aplicativos desenvolvidos de forma independente por <strong>Paulo Cézar</strong> (incluindo <strong>FinInvest (Finanças e Investimentos)</strong>, <strong>Concentrador de Mídias</strong> e <strong>pH Sanguíneo</strong> para iOS e Android) tratam dados, arquivos e permissões nos dispositivos dos usuários.
+            Esta Política de Privacidade descreve de maneira transparente como os aplicativos desenvolvidos de forma independente por <strong>Paulo Cézar</strong> (incluindo <strong>TensorTimer (TUT &amp; Workout Timer)</strong>, <strong>FinInvest (Finanças e Investimentos)</strong>, <strong>Concentrador de Mídias USB</strong> e <strong>pH Sanguíneo</strong> para iOS e Android) tratam dados, arquivos e permissões nos dispositivos dos usuários.
           </p>
 
           <h2>1. Compromisso com a Privacidade</h2>
@@ -85,7 +85,18 @@
             <li><strong>Finalidade de Apoio à Decisão:</strong> Conforme as boas práticas veterinárias, o aplicativo funciona como ferramenta de auxílio rápido em campo e triagem de acidose/alcalose metabólica.</li>
           </ul>
 
-          <h2>5. Permissões Requeridas e Sua Finalidade Exclusiva</h2>
+          <h2>5. O Aplicativo TensorTimer (TUT &amp; Treinos Multi-Exercício)</h2>
+          <p>
+            O aplicativo <strong>TensorTimer</strong> foi concebido para cronometragem esportiva profissional de alta precisão, controle rigoroso de <strong>Tempo sob Tensão (TUT - Time Under Tension)</strong>, montagem de treinos multi-exercício para musculação e organização de rotinas por dia da semana:
+          </p>
+          <ul>
+            <li><strong>Armazenamento 100% Local (Local-First):</strong> Todas as rotinas montadas, nomes de exercícios, repetições, cadências de 4 dígitos ($E - I_1 - C - I_2$), tempos de descanso e o cronograma semanal de treinos (segunda a domingo) são armazenados estritamente na memória local do smartphone do próprio usuário (via <code>SharedPreferences</code>). Não existe banco de dados remoto, não é exigido cadastro de login ou fornecimento de e-mail e nenhum dado de treino é transmitido para servidores de terceiros.</li>
+            <li><strong>Execução na Tela de Bloqueio (Lock Screen) e Segundo Plano:</strong> Para que o atleta/treinador possa acompanhar a contagem regressiva e os bipes de transição com o celular guardado no bolso ou com a tela apagada (poupando bateria e prevenindo toques acidentais), o aplicativo utiliza serviços de primeiro plano (Foreground Service / Notificação Fixa no Android com categoria cronômetro e modo de áudio em background com notificações <code>Time-Sensitive</code> no iOS). Nenhum dado sobre o usuário ou sobre a rotina de treinos trafega em redes durante esse processo.</li>
+            <li><strong>Áudio e Feedback Háptico:</strong> A reprodução de bipes sonoros nos 3 segundos finais de preparação/série/descanso e as vibrações táteis são disparadas localmente pelo processador do smartphone sem conexão com provedores externos de áudio.</li>
+            <li><strong>Isenção de Coleta de Métricas Biométricas ou Fisiológicas:</strong> O TensorTimer não coleta batimentos cardíacos, dados médicos sensíveis, localização GPS ou identificadores de publicidade.</li>
+          </ul>
+
+          <h2>6. Permissões Requeridas e Sua Finalidade Exclusiva</h2>
           <p>
             Para que as funcionalidades dos aplicativos funcionem em sistemas Android e iOS, o sistema operacional poderá solicitar as seguintes permissões estritamente quando acionadas pelo usuário:
           </p>
@@ -97,6 +108,15 @@
               <strong>Acesso a Arquivos / Documentos (FinInvest):</strong> Utilizado exclusivamente para que o usuário possa selecionar suas planilhas de negociação da B3 (.xlsx) ou arquivos de backup JSON para importação/exportação local.
             </li>
             <li>
+              <strong>Notificações e Serviço em Primeiro Plano / Foreground Service (TensorTimer):</strong> Utilizado no Android exclusivamente para manter a notificação persistente do cronômetro em tempo real na tela de bloqueio e evitar interrupções do sistema operacional durante os intervalos do treino.
+            </li>
+            <li>
+              <strong>Áudio em Segundo Plano / Background Audio (TensorTimer):</strong> Utilizado no iOS para que os alertas sonoros dos 3 segundos finais continuem funcionando com a tela apagada ou aparelho no modo silencioso.
+            </li>
+            <li>
+              <strong>Vibração Háptica (TensorTimer):</strong> Utilizada para fornecer resposta física e tátil imediata nas viradas de série e término de descansos.
+            </li>
+            <li>
               <strong>Acesso a Fotos, Vídeos e Armazenamento (Concentrador de Mídias):</strong> Necessário exclusivamente para salvar e organizar as fotos e vídeos importados da unidade externa na galeria ou pasta de destino do próprio celular.
             </li>
             <li>
@@ -104,44 +124,44 @@
             </li>
           </ul>
           <p>
-            <em>Nenhum dado financeiro, foto, vídeo ou arquivo contido no dispositivo é lido para fins de análise, indexação remota, telemetria publicitária ou qualquer finalidade além da solicitada ativamente pelo usuário.</em>
+            <em>Nenhum dado financeiro, foto, vídeo, planilha, cronograma de treino ou arquivo contido no dispositivo é lido para fins de análise, indexação remota, telemetria publicitária ou qualquer finalidade além da solicitada ativamente pelo usuário.</em>
           </p>
 
-          <h2>6. Tratamento e Tráfego de Dados (Zero Nuvem e Zero Rastreamento)</h2>
+          <h2>7. Tratamento e Tráfego de Dados (Zero Nuvem e Zero Rastreamento)</h2>
           <p>
             Todos os nossos aplicativos operam com arquitetura local:
           </p>
           <ul>
             <li>Não há servidores remotos de retenção de dados pessoais ou financeiros;</li>
-            <li>Não há envio de patrimônio ou movimentações para servidores de telemetria;</li>
+            <li>Não há envio de patrimônio, arquivos ou treinos para servidores de telemetria;</li>
             <li>Não há bibliotecas de publicidade comportamental de terceiros (SDKs de ad networks);</li>
             <li>A integridade dos arquivos e cálculos é restrita ao hardware físico do próprio usuário.</li>
           </ul>
 
-          <h2>7. Privacidade de Crianças (COPPA e LGPD)</h2>
+          <h2>8. Privacidade de Crianças (COPPA e LGPD)</h2>
           <p>
             Nossos aplicativos não coletam intencionalmente nenhum dado de identificação pessoal de crianças ou adolescentes menores de 13 anos. Por operarem sob privacidade local, estão em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD) e do Regulamento Geral sobre a Proteção de Dados (GDPR).
           </p>
 
-          <h2>8. Conformidade com Apple App Store e Google Play Console</h2>
+          <h2>9. Conformidade com Apple App Store e Google Play Console</h2>
           <p>
-            Esta política cumpre expressamente os requisitos exigidos pelas diretrizes do <strong>Apple Developer Program License Agreement (App Store Review Guidelines)</strong> e do <strong>Google Play Developer Distribution Agreement</strong> referentes à transparência do uso de permissões, segurança financeira e integridade de aplicativos.
+            Esta política cumpre expressamente os requisitos exigidos pelas diretrizes do <strong>Apple Developer Program License Agreement (App Store Review Guidelines)</strong> e do <strong>Google Play Developer Distribution Agreement</strong> referentes à transparência do uso de permissões, segurança financeira, serviços em primeiro plano e integridade de aplicativos.
           </p>
 
-          <h2>9. Alterações nesta Política</h2>
+          <h2>10. Alterações nesta Política</h2>
           <p>
             Podemos atualizar nossa Política de Privacidade periodicamente caso novos recursos ou exigências das lojas de aplicativos sejam implementados. Quaisquer atualizações serão publicadas nesta mesma URL oficial.
           </p>
 
-          <h2>10. Informações de Contato e Suporte Oficial</h2>
+          <h2>11. Informações de Contato e Suporte Oficial</h2>
           <p>
-            Se você tiver qualquer dúvida, sugestão técnica ou solicitação referente ao funcionamento de qualquer um dos aplicativos desenvolvidos (<strong>FinInvest</strong>, <strong>pH Sanguíneo</strong> ou <strong>Concentrador de Mídias</strong>), entre em contato diretamente com o desenvolvedor responsável:
+            Se você tiver qualquer dúvida, sugestão técnica ou solicitação referente ao funcionamento de qualquer um dos aplicativos desenvolvidos (<strong>TensorTimer</strong>, <strong>FinInvest</strong>, <strong>pH Sanguíneo</strong> ou <strong>Concentrador de Mídias</strong>), entre em contato diretamente com o desenvolvedor responsável:
           </p>
 
           <div class="policy-contact-box">
             <strong>Desenvolvedor Responsável:</strong> Paulo Cézar<br>
             <strong>E-mail de Contato:</strong> <a href="mailto:engenheiro.paulo.cezar@gmail.com" style="color: var(--cyan);">engenheiro.paulo.cezar@gmail.com</a><br>
-            <strong>Atuação:</strong> Desenvolvedor Flutter &bull; Engenharia Civil &bull; Engenharia de Software
+            <strong>Atuação:</strong> Desenvolvedor Flutter &bull; Engenharia Civil &bull; Engenharia de Software &bull; Educação Física
           </div>
         </div>
       </div>

@@ -868,6 +868,11 @@ section {
   background: rgba(56, 189, 248, 0.06);
 }
 
+.store-badge-card.prep {
+  border-color: rgba(255, 87, 34, 0.4);
+  background: rgba(255, 87, 34, 0.06);
+}
+
 .store-icon {
   width: 28px;
   height: 28px;
@@ -924,6 +929,12 @@ section {
   background: rgba(56, 189, 248, 0.18);
   color: #38bdf8;
   border: 1px solid rgba(56, 189, 248, 0.35);
+}
+
+.status-chip.chip-prep {
+  background: rgba(255, 87, 34, 0.18);
+  color: #ff7043;
+  border: 1px solid rgba(255, 87, 34, 0.35);
 }
 
 /* Hardware Connection Blueprint Interactive Visualizer */
@@ -1040,6 +1051,16 @@ section {
 
 .app-hero-card.card-indigo::after {
   background: radial-gradient(circle, rgba(56, 189, 248, 0.2) 0%, transparent 70%);
+}
+
+/* Card Styling for TensorTimer & Athletic Performance Apps */
+.app-hero-card.card-sport {
+  border-color: rgba(255, 87, 34, 0.35);
+  background: linear-gradient(180deg, rgba(28, 18, 16, 0.92) 0%, rgba(12, 14, 22, 0.95) 100%);
+}
+
+.app-hero-card.card-sport::after {
+  background: radial-gradient(circle, rgba(255, 87, 34, 0.18) 0%, transparent 70%);
 }
 
 /* QR Code Download Panel Component */
